@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+    <default>
+	<reference name="head">
+	    <action method="addCss"><stylesheet>ksv_social/css/fblb.css</stylesheet></action>
+            <action method="addItem"><type>skin_css</type><name>ksv_social/css/ie7.css?ver=3.2.1</name><params/><if>lt IE 7</if></action>
+            <action method="addItem"><type>js</type><name>ksv_social/js/userscripts-ie7.js</name><params/><if>lt IE 7</if></action>
+        </reference>        
+        <reference name="content">
+            <block type="core/template"   name="ksv_social_core" after="-" template="ksv_social/list.phtml"/>    
+            
+            <block type="social/facebook" name="ksv_social_facebook" after="-" >
+                <action method="setTemplate" ifconfig="social/facebook/enable">
+                    <template>ksv_social/facebook.phtml</template>
+                </action>
+            </block>             
+            <block type="social/twitter" name="ksv_social_twitter" after="-" >
+                <action method="setTemplate" ifconfig="social/twitter/enable">
+                    <template>ksv_social/twitter.phtml</template>
+                </action>
+            </block>                     
+            <block type="social/youtube" name="ksv_social_youtube" after="-" >
+                <action method="setTemplate" ifconfig="social/youtube/enable">
+                    <template>ksv_social/youtube.phtml</template>
+                </action>
+            </block>             
+            <block type="social/google" name="ksv_social_google" after="-" >
+                <action method="setTemplate" ifconfig="social/google/enable">
+                    <template>ksv_social/google.phtml</template>
+                </action>
+            </block>             
+        </reference>        
+    </default>
+</layout>

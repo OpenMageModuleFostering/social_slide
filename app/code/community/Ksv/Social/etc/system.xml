@@ -1,0 +1,724 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <ksv translate="label">
+            <label>KSV Corporation</label>
+            <sort_order>250</sort_order>
+        </ksv>
+    </tabs>
+    <sections>
+        <social translate="label" module="social">
+            <label>SOCIAL</label>
+            <tab>ksv</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>0</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <jquery translate="label">
+                            <label>Include JQuery</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </jquery>
+                    </fields>
+                </general>
+                <facebook translate="label">
+                    <label>FaceBook</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enable translate="label">
+                            <label>Enable</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable>
+                        <url translate="label">
+                            <label>Facebook Page URL</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </url>                        
+                        <width translate="label">
+                            <label>Width</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </width>                        
+                        <height translate="label">
+                            <label>Height</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </height>                        
+                        <show_faces translate="label">
+                            <label>Show faces</label>
+                            <frontend_type>select</frontend_type>                              
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </show_faces>    
+                        <show_stream translate="label">
+                            <label>Show stream</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </show_stream>                         
+                        <force_wall translate="label">
+                            <label>Force wall</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </force_wall>                         
+                        <show_header translate="label">
+                            <label>Show header</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>80</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </show_header>  
+                        <design translate="label">
+                            <label>Design</label>
+                            <frontend_type>text</frontend_type> 
+                            <sort_order>85</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </design>                             
+                        <position translate="label">
+                            <label>Position</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_position</source_model>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position>                             
+                        <position_vertical translate="label">
+                            <label>Vertical position </label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_positionvertical</source_model>                       
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_vertical>                             
+                        <position_vertical_fixed translate="label">
+                            <label>Vertical position fixed </label>
+                            <frontend_type>text</frontend_type>                            
+                            <comment>px from top, only if "Vertical position" = Fixed </comment>
+                            <sort_order>105</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_vertical_fixed>                             
+                        <position_button translate="label">
+                            <label>Button position</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_positionbutton</source_model>                           
+                            <sort_order>110</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_button>   
+                        <position_button_fixed translate="label">
+                            <label>Button position fixed </label>
+                            <frontend_type>text</frontend_type>                            
+                            <comment>px from top of slider, only if "Button position" = Fixed </comment>
+                            <sort_order>115</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_button_fixed>                         
+                        <border_width translate="label">
+                            <label>Border width</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>120</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </border_width>                             
+                        <border_color translate="label">
+                            <label>Border color</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>130</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </border_color>  
+                        <bg_color translate="label">
+                            <label>Background color</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>130</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </bg_color>  
+                        <color_scheme translate="label">
+                            <label>Color scheme</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_colorscheme</source_model>
+                            <sort_order>140</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </color_scheme>                             
+                        <z_index translate="label">
+                            <label>CSS z-index</label>
+                            <frontend_type>select</frontend_type>                            
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>150</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </z_index>                             
+                        <locale translate="label">
+                            <label>Locale</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_locale</source_model>
+                            <sort_order>160</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </locale>      
+                        <divider001 translate="label">
+                            <frontend_model>social/facebookimage</frontend_model>
+                            <sort_order>99</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </divider001>                        
+                    </fields>
+                </facebook>
+                 <twitter translate="label">
+                    <label>Twitter</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enable translate="label">
+                            <label>Enable</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable>
+                        <username translate="label">
+                            <label>Username</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </username>                        
+                        <width translate="label">
+                            <label>Width</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </width>                        
+                        <height translate="label">
+                            <label>Height</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </height>                        
+                        <show_follow_button translate="label">
+                            <label>Show follow button</label>
+                            <frontend_type>select</frontend_type>                              
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </show_follow_button>    
+                        <show_poll translate="label">
+                            <label>Poll for new results</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </show_poll> 
+                        <tweet_number translate="label">
+                            <label>Number of Tweets</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </tweet_number>                         
+                        <design translate="label">
+                            <label>Design</label>
+                            <frontend_type>text</frontend_type> 
+                            <sort_order>85</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </design>                             
+                        <position translate="label">
+                            <label>Position</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_position</source_model>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position>                             
+                        <position_vertical translate="label">
+                            <label>Vertical position </label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_positionvertical</source_model>                       
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_vertical>                             
+                        <position_vertical_fixed translate="label">
+                            <label>Vertical position fixed </label>
+                            <frontend_type>text</frontend_type>                            
+                            <comment>px from top, only if "Vertical position" = Fixed </comment>
+                            <sort_order>105</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_vertical_fixed>                             
+                        <position_button translate="label">
+                            <label>Button position</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_positionbutton</source_model>                           
+                            <sort_order>110</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_button>   
+                        <position_button_fixed translate="label">
+                            <label>Button position fixed </label>
+                            <frontend_type>text</frontend_type>                            
+                            <comment>px from top of slider, only if "Button position" = Fixed </comment>
+                            <sort_order>115</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_button_fixed>                         
+                        <border_width translate="label">
+                            <label>Border width</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>120</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </border_width>                             
+                        <border_color translate="label">
+                            <label>Border color</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>130</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </border_color>  
+                        <shell_color translate="label">
+                            <label>Shell background</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>140</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </shell_color>  
+                        <shell_text translate="label">
+                            <label>Shell text</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>150</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </shell_text>  
+                        <tweet_background translate="label">
+                            <label>Tweet background</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>160</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </tweet_background>  
+                        <tweet_text translate="label">
+                            <label>Tweet text</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>170</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </tweet_text>  
+                        <links translate="label">
+                            <label>Links</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>180</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </links>  
+                        <z_index translate="label">
+                            <label>CSS z-index</label>
+                            <frontend_type>select</frontend_type>                            
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>190</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </z_index>                             
+                        <language translate="label">
+                            <label>Language</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_language</source_model>
+                            <sort_order>160</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </language>      
+                        <divider001 translate="label">
+                            <frontend_model>social/twitterimage</frontend_model>
+                            <sort_order>89</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </divider001>                        
+                    </fields>
+                </twitter>
+                <youtube translate="label">
+                    <label>YouTube</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>30</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enable translate="label">
+                            <label>Enable</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable>
+                        <channel translate="label">
+                            <label>Channel</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </channel>                        
+                        <width translate="label">
+                            <label>Width</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </width>                        
+                        <height translate="label">
+                            <label>Height</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </height>                        
+                        <design translate="label">
+                            <label>Design</label>
+                            <frontend_type>text</frontend_type> 
+                            <sort_order>85</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </design>                             
+                        <position translate="label">
+                            <label>Position</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_position</source_model>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position>                             
+                        <position_vertical translate="label">
+                            <label>Vertical position </label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_positionvertical</source_model>                       
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_vertical>                             
+                        <position_vertical_fixed translate="label">
+                            <label>Vertical position fixed </label>
+                            <frontend_type>text</frontend_type>                            
+                            <comment>px from top, only if "Vertical position" = Fixed </comment>
+                            <sort_order>105</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_vertical_fixed>                             
+                        <position_button translate="label">
+                            <label>Button position</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_positionbutton</source_model>                           
+                            <sort_order>110</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_button>   
+                        <position_button_fixed translate="label">
+                            <label>Button position fixed </label>
+                            <frontend_type>text</frontend_type>                            
+                            <comment>px from top of slider, only if "Button position" = Fixed </comment>
+                            <sort_order>115</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_button_fixed>                         
+                        <border_width translate="label">
+                            <label>Border width</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>120</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </border_width>                             
+                        <border_color translate="label">
+                            <label>Border color</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>130</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </border_color>  
+                        <bg_color translate="label">
+                            <label>Background color</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>140</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </bg_color>  
+                        <z_index translate="label">
+                            <label>CSS z-index</label>
+                            <frontend_type>select</frontend_type>                            
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>190</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </z_index>                             
+                        <divider001 translate="label">
+                            <frontend_model>social/youtubeimage</frontend_model>
+                            <sort_order>89</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </divider001>                        
+                    </fields>
+                </youtube>
+                <google translate="label">
+                    <label>Google+</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>30</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enable translate="label">
+                            <label>Enable</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable>
+                        <page_id translate="label">
+                            <label>Page Id</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </page_id>                        
+                        <show_feed translate="label">
+                            <label>Show Feed</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>25</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </show_feed>                        
+                        <width translate="label">
+                            <label>Width</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </width>                        
+                        <height translate="label">
+                            <label>Height</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </height>                        
+                        <design translate="label">
+                            <label>Design</label>
+                            <frontend_type>text</frontend_type> 
+                            <sort_order>85</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </design>                             
+                        <position translate="label">
+                            <label>Position</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_position</source_model>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position>                             
+                        <position_vertical translate="label">
+                            <label>Vertical position </label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_positionvertical</source_model>                       
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_vertical>                             
+                        <position_vertical_fixed translate="label">
+                            <label>Vertical position fixed </label>
+                            <frontend_type>text</frontend_type>                            
+                            <comment>px from top, only if "Vertical position" = Fixed </comment>
+                            <sort_order>105</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_vertical_fixed>                             
+                        <position_button translate="label">
+                            <label>Button position</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_positionbutton</source_model>                           
+                            <sort_order>110</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_button>   
+                        <position_button_fixed translate="label">
+                            <label>Button position fixed </label>
+                            <frontend_type>text</frontend_type>                            
+                            <comment>px from top of slider, only if "Button position" = Fixed </comment>
+                            <sort_order>115</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </position_button_fixed>                         
+                        <border_width translate="label">
+                            <label>Border width</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>120</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </border_width>                             
+                        <border_color translate="label">
+                            <label>Border color</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>130</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </border_color>  
+                        <bg_color translate="label">
+                            <label>Background color</label>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>140</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </bg_color> 
+                        <language translate="label">
+                            <label>Locale</label>
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>social/source_languagegoogle</source_model>
+                            <sort_order>160</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </language>                         
+                        <z_index translate="label">
+                            <label>CSS z-index</label>
+                            <frontend_type>select</frontend_type>                            
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>190</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </z_index>                             
+                        <divider001 translate="label">
+                            <frontend_model>social/googleimage</frontend_model>
+                            <sort_order>89</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </divider001>                        
+                    </fields>
+                </google>
+            </groups>
+        </social>
+    </sections>
+</config>

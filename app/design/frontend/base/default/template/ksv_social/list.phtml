@@ -1,0 +1,9 @@
+<?php if (Mage::getStoreConfig('social/general/jquery')): ?>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<?php endif;?>
+    
+<script type="text/javascript">
+    jQuery = jQuery.noConflict();
+</script>
+
+<script src="<?php echo $this->getSkinUrl('ksv_social/js/userscripts.js') ?>" type="text/javascript"></script>

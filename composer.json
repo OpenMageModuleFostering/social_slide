@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Social_Slide",
+    "name": "OpenMageModuleFostering\/Social_Slide",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Extensions used to display your online social life by connecting to Facebook, Twitter, YouTube, Google+ all in one place.",
     "authors": [
-    {
-        "name": "ksvcorporation",
-        "email": "ksvcorporation@gmail.com"
-    }
-],
+        {
+            "name": "ksvcorporation",
+            "email": "ksvcorporation@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
